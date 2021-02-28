@@ -97,3 +97,9 @@ input[type="text"],
 .plus {
   border-right: 5px solid green;
 }
+@media (max-width: 320px) {
+  .container {
+    width: 300px;
+    margin-left: 50px;
+  }
+}

@@ -25,9 +25,9 @@ function AddTransactions() {
         <hr />
 
         <form id="form" onSubmit={onSubmit}>
-          <div class="form-control">
+          <div className="form-control">
             <Typography variant="h6">
-              <label for="text">Text</label>
+              <label htmlFor="text">Text</label>
             </Typography>
 
             <input
@@ -39,9 +39,9 @@ function AddTransactions() {
               onChange={(e) => setText(e.target.value)}
             />
           </div>
-          <div class="form-control">
+          <div className="form-control">
             <Typography variant="h6">
-              <label for="amount">
+              <label htmlFor="amount">
                 Amount <br />
                 <Typography variant="subtitle2">
                   (negative - expense, positive - income)
